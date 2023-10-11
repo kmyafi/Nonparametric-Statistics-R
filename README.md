@@ -1,4 +1,4 @@
-# Non-Parametric Statistics #
+# Nonparametric Statistics in R #
 
 > **Disclaimer:**
 >
