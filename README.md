@@ -27,7 +27,6 @@
 
   ### Exercises 2
   (W.J. Conover Page 416) A random sample of eight adults were asked how old they were when they went on their first date. The three men responded with ages 15, 17, 16, while the five women answered 12, 14, 15, 10, and 12. Test the hypothesis that the average is the same for both sexes against the alternative that girls tend to be younger on the occasion of their first date.
-  
 </details>
 
 <details>
@@ -38,8 +37,8 @@
 
   <table>
   <tr>
-    <td colspan="2">$X_i$: Farm Boys</td>
-    <td colspan="6">$Y_i$: Town Boys</td>
+    <th colspan="2">$X_i$: Farm Boys</td>
+    <th colspan="6">$Y_i$: Town Boys</td>
   </tr>
   <tr>
     <td>14.8</td> <td>10.6</td> <td>12.7</td> <td>16.9</td> <td>7.6</td> <td>2.4</td> <td>6.2</td> <td>9.9</td>
@@ -63,10 +62,37 @@
   ### Quiz 2021
   Misalkan terdapat suatu klaim yang mengatakan bahwa tanaman A memiliki khasiat dalam membantu mengurangi gejala medis suatu penyakit sistem pencernaan manusia. Kemudian, Anda diminta untuk mengecek kebenaran mengenai klaim tersebut. Setelah beberapa saat, Anda mendapatkan data mengenai 20 pasien penyakit pencernaan sebagai berikut!
 
-  | Kontrol | 3 | 6 | 4 | 5 | 5 | 8 | 6 | 5 | 7 | 2 |
-  | :--- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-  | Obat A | 2 | 3 | 1 | 4 | 7 | 5 | 5 | 4 | 2 | 1 |
+  <table>
+  <tr>
+    <td>Kontrol</td> <td>3</td> <td>6</td> <td>4</td> <td>5</td> <td>5</td> <td>8</td> <td>6</td> <td>5</td> <td>7</td> <td>2</td>
+  </tr>
+  <tr>
+    <td>Obat A</td> <td>2</td> <td>3</td> <td>1</td> <td>4</td> <td>7</td> <td>5</td> <td>5</td> <td>4</td> <td>2</td> <td>1</td>
+  </tr>
+  </table>
 
   Dalam kasus ini, apa uji yang cocok untuk melihat signifikansi perbedaan antara pasien kelompok kontrol dengan pasien yang diberikan obat dari tanaman A? Apa saja asumsi yang perlu dipenuhi uji yang Anda pilih? Lakukanlah uji yang Anda pilih tersebut! Definisikan secara lengkap hipotesis, prosedur uji statistik, hingga keputusan dan kesimpulan yang dapat diambil dari uji tersebut! Gunakan taraf signifikansi 0.05!
+</details>
+
+<details>
+  <summary>Smirnov Test</summary>
   
+  ### Exercise 4
+  (W.J. Conover Page 287) Diet A was given to four overweight girls and diet B was given to five other overweight girls, with the following observed weight losses. Find a 90% confidence interval for mean difference in effectiveness of the two diets.
+
+  | Diet Weight | Losses (pounds) |
+  | :---: | :---: |
+  | **A** | 7, 2, -1, 4 |
+  | **B** | 6, 5, 2, 8, 3 |
+
+  ### Quiz 2020
+  Manajer sumber daya alam telah mencoba menggunakan *Satellite Landsat Multispectral Scanner* data untuk klasifikasi tutupan lahan yang lebih baik. Saat satelit itu diketahui terbang di atas wilayah yang berupa hutan, intensitas cahaya dibaca kemudian direkam pada pita inframerah. Diperoleh sampel yang sudah diurut seperti berikut:
+  
+  77 77 78 78 81 81 82 82 82 82 82 83 83 84 84 84 84 85 86 86 86 86 86 87 87 87 87 87 87 87 89 89 89 89 89 89 89 90 90 90 91 91 91 91 91 91 91 91 91 91 93 93 93 93 93 93 94 94 94 94 94 94 94 94 94 94 94 94 95 95 95 95 95 96 96 96 96 96 96 97 97 97 97 97 97 97 97 97 98 99 100 100 100 100 100 100 100 100 100 101 101 101 101 101 101 102 102 102 102 102 102 103 103 104 104 104 105 107
+  
+  Saat satelit itu terbang di atas wilayah perkotaan, intensitas cahaya yang dipantulkan oleh pita infra merah yang telah diurut seperti berikut:
+  
+  71 72 73 74 75 77 78 79 79 79 79 80 80 80 81 81 81 82 82 82 82 84 84 84 84 84 84 85 85 85 85 85 85 86 86 87 88 90 91 94
+  
+  Jika arti pembacaan berbeda, maka bacaan tersebut dapat digunakan untuk membedakan intensitas wilayah perkotaan dari kawasan hutan
 </details>
