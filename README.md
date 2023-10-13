@@ -13,7 +13,7 @@
   <summary>Randomization Test</summary>
   
   ### Exercise 1
-  **(W. J. Conover Page 416)** A tire company did a follow-up study on ten customers, randomly selected from those who had purchased new tires from them three years earlier, and asked them how many times they had encountered tire failure from any cause, such as nails, valve, leakage, etc. The study was restricted to two lines of long-life tires, called Brand A dan Bran B. These were their results.
+  **(W. J. Conover Page 416)** A tire company did a follow-up study on ten customers, randomly selected from those who had purchased new tires from them three years earlier, and asked them how many times they had encountered tire failure from any cause, such as nails, valve, leakage, etc. The study was restricted to two lines of long-life tires, called Brand A dan Brand B. These were their results.
 
   | Customer | Brand A | Brand B |
   | :---: | :---: | :---: |
@@ -23,7 +23,7 @@
   | 4 | 1 | 4 |
   | 5 | 2 | 3 |
 
-  Use Fisher’s randomization method to get the exact 𝑝-value for testing the null hypothesis of equal likelihood for tire failure, against the one-sided alternative that Brand A tends to have fewer tire failures.
+  Use Fisher’s randomization method to get the exact $p$-value for testing the null hypothesis of equal likelihood for tire failure, against the one-sided alternative that Brand A tends to have fewer tire failures.
 
   ### Exercises 2
   **(W. J. Conover Page 416)** A random sample of eight adults were asked how old they were when they went on their first date. The three men responded with ages 15, 17, 16, while the five women answered 12, 14, 15, 10, and 12. Test the hypothesis that the average is the same for both sexes against the alternative that girls tend to be younger on the occasion of their first date.
@@ -98,7 +98,7 @@
 </details>
 
 <details>
-  <summary>Squared Rank Test</summary>
+  <summary>Squared Ranks Test</summary>
   
   ### Example 1
   **(W. J. Conover Page 304)** A food packaging company would like to be reasonably sure that the boxes of cereal it produces do in fact contain at least the number of ounces of cereal stamped on the outside of the box. In order to do this it must set the average amount per box a little above the advertised amount, because the unavoidable variation caused by the packaging machine will sometimes put a little less or a little more cereal in the box. A machine with smaller variation would save the company money because the average amount per box could be adjusted to be closer to the advertised amount.
