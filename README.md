@@ -13,7 +13,7 @@
   <summary>Randomization Test</summary>
   
   ### Exercise 1
-  (W.J. Conover Page 416) A tire company did a follow-up study on ten customers, randomly selected from those who had purchased new tires from them three years earlier, and asked them how many times they had encountered tire failure from any cause, such as nails, valve, leakage, etc. The study was restricted to two lines of long-life tires, called Brand A dan Bran B. These were their results.
+  **(W. J. Conover Page 416)** A tire company did a follow-up study on ten customers, randomly selected from those who had purchased new tires from them three years earlier, and asked them how many times they had encountered tire failure from any cause, such as nails, valve, leakage, etc. The study was restricted to two lines of long-life tires, called Brand A dan Bran B. These were their results.
 
   | Customer | Brand A | Brand B |
   | :---: | :---: | :---: |
@@ -26,14 +26,14 @@
   Use Fisher’s randomization method to get the exact 𝑝-value for testing the null hypothesis of equal likelihood for tire failure, against the one-sided alternative that Brand A tends to have fewer tire failures.
 
   ### Exercises 2
-  (W.J. Conover Page 416) A random sample of eight adults were asked how old they were when they went on their first date. The three men responded with ages 15, 17, 16, while the five women answered 12, 14, 15, 10, and 12. Test the hypothesis that the average is the same for both sexes against the alternative that girls tend to be younger on the occasion of their first date.
+  **(W. J. Conover Page 416)** A random sample of eight adults were asked how old they were when they went on their first date. The three men responded with ages 15, 17, 16, while the five women answered 12, 14, 15, 10, and 12. Test the hypothesis that the average is the same for both sexes against the alternative that girls tend to be younger on the occasion of their first date.
 </details>
 
 <details>
   <summary>Mann-Whitney Test</summary>
   
   ### Example 1
-  (W.J. Conover Page 276) The senior class in a particular high school had 48 boys. Twelve boys lived on farms and the other 36 lived in town. A test was devised to see if farm boys in general were more physically fit than town boys. Each boy in the class was given a physical fitness test in which a low score indicates poor physical condition. The scores of the farm boys ($X_i$) and the town boys ($Y_i$) are as follows.
+  **(W. J. Conover Page 276)** The senior class in a particular high school had 48 boys. Twelve boys lived on farms and the other 36 lived in town. A test was devised to see if farm boys in general were more physically fit than town boys. Each boy in the class was given a physical fitness test in which a low score indicates poor physical condition. The scores of the farm boys ($X_i$) and the town boys ($Y_i$) are as follows.
 
   <table>
   <tr>
@@ -78,7 +78,7 @@
   <summary>Smirnov Test</summary>
   
   ### Exercise 4
-  (W.J. Conover Page 287) Diet A was given to four overweight girls and diet B was given to five other overweight girls, with the following observed weight losses. Find a 90% confidence interval for mean difference in effectiveness of the two diets.
+  **(W. J. Conover Page 287)** Diet A was given to four overweight girls and diet B was given to five other overweight girls, with the following observed weight losses. Find a 90% confidence interval for mean difference in effectiveness of the two diets.
 
   | Diet Weight | Losses (pounds) |
   | :---: | :---: |
@@ -95,4 +95,39 @@
   71 72 73 74 75 77 78 79 79 79 79 80 80 80 81 81 81 82 82 82 82 84 84 84 84 84 84 85 85 85 85 85 85 86 86 87 88 90 91 94
   
   Jika arti pembacaan berbeda, maka bacaan tersebut dapat digunakan untuk membedakan intensitas wilayah perkotaan dari kawasan hutan
+</details>
+
+<details>
+  <summary>Squared Rank Test</summary>
+  
+  ### Example 1
+  **(W. J. Conover Page 304)** A food packaging company would like to be reasonably sure that the boxes of cereal it produces do in fact contain at least the number of ounces of cereal stamped on the outside of the box. In order to do this it must set the average amount per box a little above the advertised amount, because the unavoidable variation caused by the packaging machine will sometimes put a little less or a little more cereal in the box. A machine with smaller variation would save the company money because the average amount per box could be adjusted to be closer to the advertised amount.
+  
+  A new machine is being tested to see if it is less variable than the present machine, in which case it will be purchased to replace the old machine. Several boxes are filled with cereal using the present machine and the amount in each box is measured. The same is done for the new machine to test:
+
+  <table>
+  <tr>
+    <td>Present ($X$)</td> <td>10.8</td> <td>11.1</td> <td>10.4</td> <td>10.1</td> <td>11.3</td>
+  </tr>
+  <tr>
+    <td>New ($Y$)</td> <td>10.8</td> <td>10.5</td> <td>11</td> <td>10.9</td> <td>10.8</td> <td>10.7</td> <td>10.8</td>
+  </tr>
+  </table>
+
+  ### Exercise 1
+  **(W. J. Conover Page 310)** A blood bank kept a record of the rate of heartbeats for several blood donors.
+
+  | Men | Women |
+  | :---: | :---: |
+  | 58 | 66 |
+  | 76 | 74 |
+  | 82 | 69 |
+  | 74 | 76 |
+  | 79 | 72 |
+  | 65 | 73 |
+  | 74 | 75 |
+  | 86 | 67 |
+  | | 68 |
+
+  Is the variation among the men significantly greater than the variation among women?
 </details>
